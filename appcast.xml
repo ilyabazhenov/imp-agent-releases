@@ -6,6 +6,21 @@
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
     <item>
+      <title>1.2</title>
+      <pubDate>Fri, 24 Jul 2026 11:10:13 +0000</pubDate>
+      <sparkle:version>163</sparkle:version>
+      <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+        <li>К каждому релизу теперь прикладывается dmg — ставить руками проще: открыл, перетащил на «Программы».</li>
+        <li>Список изменений виден прямо в окне обновления — вы читаете его там прямо сейчас.</li>
+        <li>Это первый релиз, который приложение может доставить само: если окно обновления открылось — канал работает.</li>
+      </ul>]]></description>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.2/Imp-1.2.zip"
+                 length="7189529" type="application/octet-stream"
+                 sparkle:edSignature="MgUx9l5TVbSbOoCfJ+0Q8iy+3FgWfuLbW7olFhs9dOpuPYn7oo55J//yQsveprVICenYdVF+nn8Wmso4/IhCBQ=="/>
+    </item>
+    <item>
       <title>1.1</title>
       <pubDate>Fri, 24 Jul 2026 10:35:38 +0000</pubDate>
       <sparkle:version>162</sparkle:version>
