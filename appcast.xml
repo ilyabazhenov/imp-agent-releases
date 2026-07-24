@@ -2,7 +2,8 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Imp</title>
-    <!-- imp:new-items — новые релизы вставляет сразу под этой строкой Scripts/release.sh
-         основного репозитория. Руками сюда лучше не лазить: подпись и размеры считает он. -->
+    <!-- Руками сюда лучше не лазить: записи вставляет Scripts/release.sh основного
+         репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
+    <!-- imp:new-items -->
   </channel>
 </rss>
