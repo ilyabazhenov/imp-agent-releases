@@ -5,5 +5,15 @@
     <!-- Руками сюда лучше не лазить: записи вставляет Scripts/release.sh основного
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
+    <item>
+      <title>1.1</title>
+      <pubDate>Fri, 24 Jul 2026 10:35:38 +0000</pubDate>
+      <sparkle:version>162</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.1/Imp-1.1.zip"
+                 length="7189507" type="application/octet-stream"
+                 sparkle:edSignature="2iXYAwoH2Oeaev2a+oh4NgIpokDODH8W9RNb2lamVmNxITFBdJ5qqyuK8C7ZU2BMlOpqFjKACHEDl6MrP4JHCg=="/>
+    </item>
   </channel>
 </rss>
