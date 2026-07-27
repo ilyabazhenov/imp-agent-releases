@@ -6,6 +6,28 @@
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
     <item>
+      <title>1.3</title>
+      <pubDate>Mon, 27 Jul 2026 19:23:36 +0000</pubDate>
+      <sparkle:version>202</sparkle:version>
+      <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+        <li>Приложение теперь просит лицензию, привязанную к машине: код машины — на гейт-экране или в настройках, строку активации выдаёт Илья.</li>
+        <li>Новый раздел «Тесты» (TestOps): дерево кейсов, сценарии, история прогонов, разбор падений и заведение дефектов с мостом в Jira.</li>
+        <li>Confluence переваривает большие страницы: таблицы, свёрнутые блоки, инлайновые комментарии, вложения, выгрузка страницы на диск.</li>
+        <li>Инструменты MSSQL: агент читает базы (только чтение) с выбором окружения.</li>
+        <li>Агент выходит в веб: скачивание страниц и HTTP-запросы к разрешённым сервисам.</li>
+        <li>Импорт файлов в артефакты: xlsx, docx, pdf и csv разворачиваются в markdown для правки.</li>
+        <li>Jira пишет поля и качает вложения, кастомные поля объяснены в настройках; в Bitbucket — полноценное ведение ревью: комментарии, ответы, создание и правка PR.</li>
+        <li>Доска workspace переложена в одну колонку, агент собирает workspace одной кнопкой; связанные папки дают читать файлы вне рабочей папки.</li>
+        <li>Кнопки «разобрать в чате» в Jenkins, кластере и других разделах — с настраиваемыми дописками; быстрые ответы после хода агента.</li>
+        <li>Быстрее и плавнее: мгновенное открытие беседы, ровный стрим без прогрева, композер не дёргается.</li>
+      </ul>]]></description>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.3/Imp-1.3.zip"
+                 length="8930606" type="application/octet-stream"
+                 sparkle:edSignature="9C22/TjWcs+H7DxEeeanptKW1qdXBnvbobg1figxvy7nYOiAfR0IilJsG8PZHJzrQYXO47lCc9cLb8y2E5uUBQ=="/>
+    </item>
+    <item>
       <title>1.2</title>
       <pubDate>Fri, 24 Jul 2026 11:10:13 +0000</pubDate>
       <sparkle:version>163</sparkle:version>
