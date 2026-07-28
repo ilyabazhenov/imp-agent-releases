@@ -6,6 +6,27 @@
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
     <item>
+      <title>1.6</title>
+      <pubDate>Tue, 28 Jul 2026 16:36:37 +0000</pubDate>
+      <sparkle:version>209</sparkle:version>
+      <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+        <li>Агент правит configmap в Kubernetes: меняет ключ целиком, показывает дифф до записи и спрашивает согласия на каждую правку — «разрешить всегда» здесь не действует.</li>
+        <li>Ненужный ключ удаляется тем же инструментом, а прежнее значение остаётся в ответе: откат — это повтор вызова с ним.</li>
+        <li>Выкат перезапускается из чата, и агент сам дожидается раскатки, а не опрашивает поды по кругу.</li>
+        <li>Список подов перестал пугать зря: выдача по метке больше не выглядит обрезанной, а уходящий под при раскатке считается уходящим, а не больным.</li>
+        <li>Имя беседы и быстрые ответы считает отдельная мелкая модель без рассуждения — подсказки появляются за пару секунд вместо десяти.</li>
+        <li>Переключатель веток видит ветки с сервера и заводит локальную с трекингом одним щелчком.</li>
+        <li>⌘V работает на кириллической раскладке и вставляет туда, где курсор, а не всегда в поле чата.</li>
+        <li>Переключение вкладок стало быстрее: Git, «Файлы» и «Процессы» не перезапрашивают данные на каждый заход и помнят, где вы остановились.</li>
+        <li>Упавший CLI больше не отдаёт ошибку без причины: текст его последних слов доезжает целиком.</li>
+      </ul>]]></description>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.6/Imp-1.6.zip"
+                 length="10447443" type="application/octet-stream"
+                 sparkle:edSignature="kBclWjCrnwNzWdSoRphg5625BrXFYI4YEvfAYfjrihdwOU2gy/NH9P76rPwbvdbjv7x8GQOO1UTWIbXMBMByBQ=="/>
+    </item>
+    <item>
       <title>1.5</title>
       <pubDate>Tue, 28 Jul 2026 10:58:25 +0000</pubDate>
       <sparkle:version>204</sparkle:version>
