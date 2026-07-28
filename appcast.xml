@@ -6,6 +6,24 @@
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
     <item>
+      <title>1.4</title>
+      <pubDate>Tue, 28 Jul 2026 09:59:13 +0000</pubDate>
+      <sparkle:version>203</sparkle:version>
+      <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+        <li>Режим плана: чип у поля ввода (или ⇧⌘P) переводит беседу в разведку — агент читает, но ничего не правит и не пишет в чужие системы, а заканчивает готовым планом. Под планом кнопки «Выполнять», «Доработать», «Отложить»; одобренные шаги уезжают в план хода.</li>
+        <li>Аргументы вызова в окне подтверждения читаются глазами: поля вместо строки JSON, длинный текст — живыми переносами, а не одним абзацем.</li>
+        <li>Поиск тест-кейсов в TestOps идёт той же ручкой, что и веб-интерфейс: ищет по содержимому кейса, а не только по имени, и честно говорит, сколько нашлось и сколько показано.</li>
+        <li>Ответы инструментов TestOps печатают ссылку на запуск, результат и кейс — раньше агент, которому нужен был адрес, мог собрать его из воздуха.</li>
+        <li>Jenkins больше не ставит перезапуск поверх уже идущей сборки — и различает «сборка идёт, ждёт агента» и «упала до начала пайплайна» вместо одного ответа на оба случая.</li>
+        <li>В «Кластере» разбор одного пода уходит в чат кнопкой в раскрытой строке или через контекстное меню в списке.</li>
+      </ul>]]></description>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.4/Imp-1.4.zip"
+                 length="9033519" type="application/octet-stream"
+                 sparkle:edSignature="BoEiLOpsozyTvH1lj0RZJO58y7kdU97LLrRplOqmJrYkOjvUv0KzH7yOaX7nlgiT6eystDaB5bxBxi2dZbQeCQ=="/>
+    </item>
+    <item>
       <title>1.3</title>
       <pubDate>Mon, 27 Jul 2026 19:23:36 +0000</pubDate>
       <sparkle:version>202</sparkle:version>
