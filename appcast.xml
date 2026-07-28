@@ -6,6 +6,20 @@
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
     <item>
+      <title>1.5</title>
+      <pubDate>Tue, 28 Jul 2026 10:58:25 +0000</pubDate>
+      <sparkle:version>204</sparkle:version>
+      <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+        <li>Приложение больше не закрывается на ответе с блоком кода: подсветка синтаксиса не находила свои файлы в установленном бандле и валила процесс. Затрагивало все прошлые версии — обновиться стоит всем.</li>
+        <li>По той же причине не работал инструмент `diagram`: схемы mermaid теперь рисуются и на машине, где приложение просто установлено, а не собрано.</li>
+      </ul>]]></description>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.5/Imp-1.5.zip"
+                 length="10339912" type="application/octet-stream"
+                 sparkle:edSignature="qMznXZEv7HnIAuuhzVZY8et/ettSNfPNi+nt3AR/wNwhDIzo7bHeFoYP6Gpd6ebLHv1b+STlJasWEWHrRkF+DQ=="/>
+    </item>
+    <item>
       <title>1.4</title>
       <pubDate>Tue, 28 Jul 2026 09:59:13 +0000</pubDate>
       <sparkle:version>203</sparkle:version>
