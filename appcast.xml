@@ -6,6 +6,22 @@
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
     <item>
+      <title>1.11</title>
+      <pubDate>Tue, 11 Aug 2026 16:15:57 +0000</pubDate>
+      <sparkle:version>221</sparkle:version>
+      <sparkle:shortVersionString>1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+        <li>Агент видит тест-кейс за упавшим автотестом: ожидаемые результаты по шагам, вложения кейса (у команды там SQL к тестовым данным) и связь с ручным кейсом. Раньше он разбирал падение, зная только что тест делал, но не что должно было получиться.</li>
+        <li>Разбор ночного прогона тоже заглядывает в ручной кейс: не сошёлся ассерт — подагент идёт за ожидаемым результатом, а не гадает по шагам.</li>
+        <li>В разделе «TestOps» вложения кейса открываются и скачиваются прямо в приложении, а связанный кейс и кейс упавшего прогона — переход к карточке, а не уход в браузер; из карточки есть возврат туда, откуда пришли.</li>
+        <li>У карточки кейса появилась полоса с именем и действиями — как у страницы прогона и карточек задачи и пул-реквеста: имя больше не уезжает при прокрутке, «Разобрать в чате» не нужно искать в хвосте сценария.</li>
+      </ul>]]></description>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.11/Imp-1.11.zip"
+                 length="11436723" type="application/octet-stream"
+                 sparkle:edSignature="mMwE7w2KbuOb7t/szwhGdnP4vR63vOqcxq6HMIpPhwMHfNDGaTjp97sGmliSqbQ3nzKsOdd/nwcNP5jljzuIAA=="/>
+    </item>
+    <item>
       <title>1.10</title>
       <pubDate>Tue, 11 Aug 2026 11:46:55 +0000</pubDate>
       <sparkle:version>214</sparkle:version>
