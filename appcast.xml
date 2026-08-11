@@ -6,6 +6,22 @@
          репозитория (сразу под строкой-маркером), подпись и размеры считает он. -->
     <!-- imp:new-items -->
     <item>
+      <title>1.10</title>
+      <pubDate>Tue, 11 Aug 2026 11:46:55 +0000</pubDate>
+      <sparkle:version>214</sparkle:version>
+      <sparkle:shortVersionString>1.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+        <li>Идущий прогон видно на доске «Тестов»: у живого запуска пульсирующая точка и подпись «идёт», а брошенные незакрытыми прогоны больше не притворяются работающими.</li>
+        <li>Разбор ночного прогона автотестов стал процессом: агент сам собирает падения, отсеивает отключённые тесты, сводит их по причинам и пишет отчёт — вместо утренней выгрузки из TestOps руками.</li>
+        <li>Разбор большого прогона больше не обрывается на первой сотне падений: агент добирает их все.</li>
+        <li>Задача, прерванная перезапуском приложения, больше не висит вечным «агент работает» — её можно переделать или вернуть назад.</li>
+      </ul>]]></description>
+      <enclosure url="https://github.com/ilyabazhenov/imp-agent-releases/releases/download/v1.10/Imp-1.10.zip"
+                 length="11383166" type="application/octet-stream"
+                 sparkle:edSignature="TuTHbEiGbZgj/8jF5qr+id4yx11uomUKdnFoVilsdM5rBqUZz/4JABoHFeyNWcwj0R45qN4EhWWlcDZ9HmIKDw=="/>
+    </item>
+    <item>
       <title>1.9</title>
       <pubDate>Fri, 31 Jul 2026 13:19:43 +0000</pubDate>
       <sparkle:version>212</sparkle:version>
